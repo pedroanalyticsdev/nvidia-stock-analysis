@@ -74,13 +74,39 @@ A análise evidencia:
 
 ---
 
+## Conclusão
+
+A análise demonstra que a NVIDIA apresentou histórico recente de crescimento expressivo acompanhado por elevada volatilidade e drawdowns significativos.
+
+O projeto evidencia aplicação prática de:
+
+- Tratamento e limpeza de dados
+- Análise exploratória (EDA)
+- Cálculo de métricas financeiras
+- Visualização estatística
+- Avaliação quantitativa de risco
+
+---
+
 ## Fonte dos Dados
 
 Os dados históricos foram obtidos através do Yahoo Finance, utilizando a série histórica da ação NVDA.
 
 ---
 
-## ▶ Como Executar o Projeto
+## Autor
 
-1. Clone o repositório:
+**Pedro Henrique Souza Santos**  
+Estudante de Análise e Desenvolvimento de Sistemas | Foco em Análise de Dados e Mercado Financeiro  
 
+🔗 **LinkedIn**: https://linkedin.com/in/pedro-henrique-souza-santos-4064b9352/
+
+💻 **GitHub**: https://github.com/pedroanalyticsdev
+
+📧 **Email**: p.souza123754@gmail.com
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.  
