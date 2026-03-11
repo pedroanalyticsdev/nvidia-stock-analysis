@@ -15,7 +15,7 @@ A análise foi conduzida utilizando Python e bibliotecas voltadas para manipula�
 
 ---
 
-## 📅 Período Analisado
+## Período Analisado
 
 10/03/2025 a 09/03/2026
 
