@@ -9,19 +9,25 @@
 
 ## Visão Geral do Projeto
 
-## Período Analisado
-A análise considera dados históricos da NVIDIA (NVDA) no intervalo de 10/03/2025 a 09/03/2026.
+Este projeto apresenta uma análise exploratória e financeira dos dados históricos da ação da NVIDIA (NVDA), com foco em risco, volatilidade e comportamento de tendência.
 
-Este projeto realiza uma análise exploratória e financeira dos dados históricos da ação da NVIDIA (NVDA).
+A análise foi conduzida utilizando Python e bibliotecas voltadas para manipulação, visualização e avaliação estatística de dados financeiros.
 
-O objetivo é avaliar:
+---
 
-- Volatilidade  
-- Comportamento de tendência  
-- Exposição ao risco  
-- Drawdowns de mercado  
+## 📅 Período Analisado
 
-Todas as análises foram conduzidas utilizando Python com abordagem orientada a dados.
+10/03/2025 a 09/03/2026
+
+---
+
+## Objetivos da Análise
+
+- Avaliar o comportamento histórico do preço
+- Identificar tendências de curto e longo prazo
+- Medir volatilidade e risco
+- Calcular drawdowns do período
+- Analisar a distribuição dos retornos diários
 
 ---
 
@@ -36,50 +42,45 @@ Todas as análises foram conduzidas utilizando Python com abordagem orientada a 
 
 ---
 
-## Métricas Financeiras Analisadas
+## Métricas Financeiras Aplicadas
 
-- Médias Móveis (5 e 30 períodos)  
-- Retorno Percentual Diário  
-- Drawdown Histórico  
-- Distribuição de Retornos  
-- Relação Volume x Retorno  
-- Gráfico Candlestick (OHLC)  
+- Médias Móveis (5 e 30 períodos)
+- Retorno Percentual Diário
+- Drawdown Atual e Máximo Drawdown
+- Distribuição Estatística dos Retornos
+- Relação Volume x Retorno
+- Gráfico Candlestick (OHLC)
 
 ---
 
-## Principais Insights
+## Principais Resultados
 
-- A ação apresentou um **drawdown anual de -48,34%**, indicando elevada volatilidade.
+- A ação apresentou um **drawdown de -48,34%** em relação ao pico do período.
 - Para recuperar essa queda, seria necessária uma valorização aproximada de **+93%**.
-- A distribuição dos retornos diários demonstra grande dispersão, reforçando o perfil de risco elevado.
-- As médias móveis evidenciam ciclos de crescimento acelerado seguidos por correções abruptas.
+- A distribuição dos retornos diários demonstra elevada dispersão, indicando alta volatilidade.
+- As médias móveis evidenciam ciclos de crescimento acelerado seguidos por correções relevantes.
 
 ---
 
 ## Análise de Risco — Drawdown
 
-O drawdown mede a queda percentual em relação ao pico histórico.
+O drawdown representa a variação percentual entre o preço atual e o maior preço registrado anteriormente.
 
 A análise evidencia:
 
-- Risco significativo no curto prazo  
-- Forte capacidade histórica de recuperação  
-- Exposição a ciclos intensos de mercado  
+- Alta exposição a oscilações de mercado
+- Presença de ciclos de expansão e correção
+- Perfil de risco elevado no curto prazo
 
 ---
 
-## Conclusão
+## Fonte dos Dados
 
-A análise indica que a NVIDIA apresenta:
-
-- Alto potencial de crescimento  
-- Elevada volatilidade  
-- Exposição significativa a drawdowns  
-
-O perfil do ativo sugere maior adequação para investidores com tolerância elevada ao risco e visão de longo prazo.
-
-Do ponto de vista analítico, o projeto demonstra aplicação prática de métricas financeiras, visualização estatística e avaliação de risco baseada em dados.
+Os dados históricos foram obtidos através do Yahoo Finance, utilizando a série histórica da ação NVDA.
 
 ---
 
-## 📂 Estrutura do Projeto
+## ▶ Como Executar o Projeto
+
+1. Clone o repositório:
+
