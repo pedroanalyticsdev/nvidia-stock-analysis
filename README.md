@@ -9,6 +9,9 @@
 
 ## Visão Geral do Projeto
 
+## Período Analisado
+A análise considera dados históricos da NVIDIA (NVDA) no intervalo de 10/03/2025 a 09/03/2026.
+
 Este projeto realiza uma análise exploratória e financeira dos dados históricos da ação da NVIDIA (NVDA).
 
 O objetivo é avaliar:
